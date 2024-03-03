@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+
+body {
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+button {
+  font-family: "Lucida Console", Monaco, monospace;
+  width: 33vw;
+  max-width: 100px;
+}
+
+.highlight {
+  background-color: gold !important;
+}
+
+html {
+  background-color: whitesmoke;
+}
+
+.inactive {
+  opacity: 50%;
+}
+
+input {
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 15%;
+  font-size: 15px;
+}
+
+.progressBar {
+  display: flex;
+  margin: 0 auto;
+  width: 80 vw;
+  max-width: 300px;
+  height: 20px;
+  background-color: lightgreen;
+  border-radius: 10%;
+  border: 2px solid black;
+}
+
+.progressBarBlock {
+  height: 20px;
+  /* width: 20px; */
+  background-color: green;
+}
+
+.square {
+  max-height: 100px;
+  max-width: 100px;
+  border: 2px solid black;
+  display: inline-block;
+  margin: 2px;
+  background-color: floralwhite;
+  border-radius: 10%;
+}
