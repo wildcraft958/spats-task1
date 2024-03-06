@@ -138,7 +138,7 @@ class App extends React.Component { // Define a class component called App
     this.setState({ // Update the starting round state
       k: parseInt(e.target
 
-.value),
+        .value),
       startingRound: parseInt(e.target.value)
     });
   }
@@ -181,7 +181,7 @@ class App extends React.Component { // Define a class component called App
         </div>
 
         <button onClick={this.startRound.bind(this)} disabled={this.state.gameStarted}> {/* Render a button to start the game*/}
-        <b>PLAY</b> {/*Render the text inside the button */}
+          <b>PLAY</b> {/*Render the text inside the button */}
         </button>
 
         <div>Top score: <b>{this.state.topScore}</b></div>  {/*Render the top score*/}
