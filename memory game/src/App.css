@@ -1,23 +1,31 @@
 .App {
   text-align: center;
+  margin: 20px;
 }
 
 body {
   font-family: "Lucida Console", Monaco, monospace;
+  margin: 20px;
 }
 
 button {
   font-family: "Lucida Console", Monaco, monospace;
   width: 33vw;
   max-width: 100px;
+  margin: 20px;
+
 }
 
 .highlight {
   background-color: gold !important;
+  margin: 20px;
+
 }
 
 html {
   background-color: whitesmoke;
+  margin: 20px;
+
 }
 
 .inactive {
@@ -29,6 +37,8 @@ input {
   border: 2px solid black;
   border-radius: 15%;
   font-size: 15px;
+  margin: 10px;
+
 }
 
 .progressBar {
@@ -40,6 +50,8 @@ input {
   background-color: lightgreen;
   border-radius: 10%;
   border: 2px solid black;
+  margin:  20px auto;
+
 }
 
 .progressBarBlock {
