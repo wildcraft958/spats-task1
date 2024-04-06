@@ -1,0 +1,68 @@
+[
+{
+    "id": 1,
+    "img": "https://i.ibb.co/7zvJY1V/Rectangle-26.png",
+    "price": 100,
+    "offerprice": 80,
+    "title": "Fried Chicken Bento",
+    "author": "John Doe",
+    "date": "2021-06-01",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Donec nec nunc nec nunc."
+
+},
+{
+    "id": 2,
+    "img": "https://i.ibb.co/7zvJY1V/Rectangle-26.png",
+    "price": 100,
+    "offerprice": 80,
+    "title": "Fried Chicken Bento",
+    "author": "John Doe",
+    "date": "2021-06-01",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Donec nec nunc nec nunc."
+
+},
+{
+    "id": 3,
+    "img": "https://i.ibb.co/7zvJY1V/Rectangle-26.png",
+    "price": 100,
+    "offerprice": 80,
+    "title": "Fried Chicken Bento",
+    "author": "John Doe",
+    "date": "2021-06-01",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Donec nec nunc nec nunc."
+
+},
+{
+    "id": 4,
+    "img": "https://i.ibb.co/7zvJY1V/Rectangle-26.png",
+    "price": 100,
+    "offerprice": 80,
+    "title": "Fried Chicken Bento",
+    "author": "John Doe",
+    "date": "2021-06-01",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Donec nec nunc nec nunc."
+
+},
+{
+    "id": 5,
+    "img": "https://i.ibb.co/7zvJY1V/Rectangle-26.png",
+    "price": 100,
+    "offerprice": 80,
+    "title": "Fried Chicken Bento",
+    "author": "John Doe",
+    "date": "2021-06-01",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Donec nec nunc nec nunc."
+
+},
+{
+    "id": 6,
+    "img": "https://i.ibb.co/7zvJY1V/Rectangle-26.png",
+    "price": 100,
+    "offerprice": 80,
+    "title": "Fried Chicken Bento",
+    "author": "John Doe",
+    "date": "2021-06-01",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Donec nec nunc nec nunc."
+
+}
+]

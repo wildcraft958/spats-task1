@@ -1,32 +1,38 @@
+import Data from "../data.json";
 function Card() {
   return (
     <div>
       <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
         <a href="#">
           <img
-            className="p-8 rounded-t-lg"
-            src="demo.png"
+            className="p-8 rounded-xl w-full h-80 object-cover object-center"
+            src={Data[0].img}
             alt="product image"
           />
         </a>
-        <div className="flex flex-col justify-between items-center mt-2.5 mb-5">
+        <div className="flex flex-col justify-between text-center mt-2.5 mb-5 mx-4">
           <div className="px-5 pb-5">
             <a href="#">
               {/* title */}
               <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
-                Art of War
+                {Data[0].title}
               </h5>
             </a>
             <div className="text-white">
-              author  •  year
+              {Data[0].author}  •  {Data[0].date}
             </div>
             <div className="text-white">
-              description
+              {Data[0].description}
             </div>
             {/* price */}
-            <span className="text-3xl font-bold text-gray-900 dark:text-white">
-              $599
-            </span>
+            <div>
+              <span className="text-xl font-bold text-white mx-2">
+                ${Data[0].offerprice}
+              </span>
+              <span className="text-md font-bold text-white line-through">
+                ${Data[0].price}
+              </span>
+            </div>
           </div>
 
           <div className="flex flex-row items-center justify-between">
@@ -39,7 +45,7 @@ function Card() {
             <button
               className="mx-8 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             >
-              Buy now    
+              Buy now
             </button>
           </div>
         </div>
