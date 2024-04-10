@@ -16,6 +16,7 @@ function App() {
 
       <Intro />
       </div>
+      <hr className="m-8 h-1 bg-slate-800 rounded-full" />
 
       <Bsell/>
       <hr className="m-8 h-1 bg-slate-800 rounded-full" />

@@ -2,6 +2,7 @@ function Contact() {
   return (
     <div className="bg-slate-100 p-8">
       <form className="max-w-md mx-auto">
+        <h1 className="text-xl">Contact Us</h1>
         <div className="relative z-0 w-full mb-5 group">
           <input
             type="email"
