@@ -7,6 +7,9 @@ export default {
   theme: {
     extend: {
       'demo' : 'url("demo.png")',
+      height: {
+        '500': '500px',
+      },
     },
   },
   plugins: [],

@@ -1,6 +1,6 @@
 function Contact() {
   return (
-    <div>
+    <div className="bg-slate-100 p-8">
       <form className="max-w-md mx-auto">
         <div className="relative z-0 w-full mb-5 group">
           <input
