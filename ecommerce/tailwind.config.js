@@ -9,6 +9,7 @@ export default {
       'demo' : 'url("demo.png")',
       height: {
         '500': '500px',
+        '800': '800px',
       },
     },
   },

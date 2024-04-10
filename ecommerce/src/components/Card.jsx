@@ -1,12 +1,14 @@
+import PropTypes from 'prop-types';
 import Data from "../data.json";
-function Card() {
+
+function Card({index}) {
   return (
-    <div>
+    <div className='m-4'>
       <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
         <a href="#">
           <img
-            className="p-8 rounded-xl w-full h-80 object-cover object-center"
-            src={Data[0].img}
+            className="p-8 rounded-xl w-full h-80 object-contain object-center"
+            src={Data[index].img}
             alt="product image"
           />
         </a>
@@ -15,22 +17,22 @@ function Card() {
             <a href="#">
               {/* title */}
               <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
-                {Data[0].title}
+                {Data[index].title}
               </h5>
             </a>
             <div className="text-white">
-              {Data[0].author}  •  {Data[0].date}
+              {Data[index].author}  •  {Data[index].date}
             </div>
             <div className="text-white">
-              {Data[0].description}
+              {Data[index].description}
             </div>
             {/* price */}
             <div>
               <span className="text-xl font-bold text-white mx-2">
-                ${Data[0].offerprice}
+                ${Data[index].offerprice}
               </span>
               <span className="text-md font-bold text-white line-through">
-                ${Data[0].price}
+                ${Data[index].price}
               </span>
             </div>
           </div>
@@ -53,6 +55,11 @@ function Card() {
     </div>
   );
 }
+Card.propTypes = {
+   index: PropTypes.number.isRequired,
+}
+
+
 
 export default Card;
 

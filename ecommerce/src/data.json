@@ -1,68 +1,123 @@
 [
-{
-    "id": 1,
-    "img": "https://i.ibb.co/7zvJY1V/Rectangle-26.png",
-    "price": 100,
-    "offerprice": 80,
-    "title": "Fried Chicken Bento",
-    "author": "John Doe",
-    "date": "2021-06-01",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Donec nec nunc nec nunc."
-
-},
-{
-    "id": 2,
-    "img": "https://i.ibb.co/7zvJY1V/Rectangle-26.png",
-    "price": 100,
-    "offerprice": 80,
-    "title": "Fried Chicken Bento",
-    "author": "John Doe",
-    "date": "2021-06-01",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Donec nec nunc nec nunc."
-
-},
-{
-    "id": 3,
-    "img": "https://i.ibb.co/7zvJY1V/Rectangle-26.png",
-    "price": 100,
-    "offerprice": 80,
-    "title": "Fried Chicken Bento",
-    "author": "John Doe",
-    "date": "2021-06-01",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Donec nec nunc nec nunc."
-
-},
-{
-    "id": 4,
-    "img": "https://i.ibb.co/7zvJY1V/Rectangle-26.png",
-    "price": 100,
-    "offerprice": 80,
-    "title": "Fried Chicken Bento",
-    "author": "John Doe",
-    "date": "2021-06-01",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Donec nec nunc nec nunc."
-
-},
-{
-    "id": 5,
-    "img": "https://i.ibb.co/7zvJY1V/Rectangle-26.png",
-    "price": 100,
-    "offerprice": 80,
-    "title": "Fried Chicken Bento",
-    "author": "John Doe",
-    "date": "2021-06-01",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Donec nec nunc nec nunc."
-
-},
-{
-    "id": 6,
-    "img": "https://i.ibb.co/7zvJY1V/Rectangle-26.png",
-    "price": 100,
-    "offerprice": 80,
-    "title": "Fried Chicken Bento",
-    "author": "John Doe",
-    "date": "2021-06-01",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Donec nec nunc nec nunc."
-
-}
-]
+    {
+      "id": 1,
+      "img": "https://imgs.search.brave.com/FlQS4GrzbL5Oc2FwXQvMtAKt3TVc2eVMVzLO4lx-iWA/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NDFqUlJycVppcEwu/anBn",
+      "price": 100,
+      "offerprice": 80,
+      "title": "Ikigai: The Japanese Secret to a Long and Happy Life",
+      "author": "Héctor García and Francesc Miralles",
+      "date": "2016-04-05",
+      "description": "Ikigai reveals the secrets to their longevity and happiness: how they eat, how they move, how they work, how they foster collaboration and community."
+    },
+    {
+      "id": 2,
+      "img": "https://imgs.search.brave.com/Rj_f2zdRTqxWtEqXy-NWiG1mSP10AyyZMYGbWj9Nx3g/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NTFLN1QxYVpHREwu/anBn",
+      "price": 120,
+      "offerprice": 95,
+      "title": "The Art of Making Memories: How to Create and Remember Happy Moments",
+      "author": "Meik Wiking",
+      "date": "2019-10-15",
+      "description": "The Art of Making Memories examines how mental images are made, stored, and recalled in our brains, as well as the 'art of letting go.'"
+    },
+    {
+      "id": 3,
+      "img": "https://imgs.search.brave.com/PesTiwDCqp10xva9HKSjKRgJyXNRMGCaGeAyQWPiWy0/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NDFYTWFDSGtyZ0wu/anBn",
+      "price": 150,
+      "offerprice": 110,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "date": "1925-04-10",
+      "description": "The Great Gatsby follows a cast of characters living in the fictional town of West Egg on prosperous Long Island in the summer of 1922."
+    },
+    {
+      "id": 4,
+      "img": "https://imgs.search.brave.com/bd9JiT81qz_LwSdj73o8y8gp97lskjbHPUz4D1ttNaM/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/YmZib29rcy5jb20v/Y29yZS9tZWRpYS9t/ZWRpYS5ubD9pZD02/Nzc2NiZjPTQyNjg2/NyZoPUJCSXhXR296/ckV5UmJHZXJHMjE4/cWx1R0xDMDJXcjRX/Y25ZVFpGM3FnTzhQ/N3pWZiZyZXNpemVp/ZD0tMg",
+      "price": 90,
+      "offerprice": 70,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "date": "1960-07-11",
+      "description": "To Kill a Mockingbird explores the irrationality of adult attitudes toward race and class in the Deep South of the 1930s."
+    },
+    {
+      "id": 5,
+      "img": "https://imgs.search.brave.com/2O61vA7_6vO5pwLgJ5ShX_PE_mzLyfWBoaVVXidQU7c/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1Qk9HSm1ORE0z/TWpBdE16WXlaQzAw/WlRFMUxXRTBNamd0/WmprMFlUQXdNRGhq/TkdJd0wybHRZV2Rs/TDJsdFlXZGxYa0V5/WGtGcWNHZGVRWFZ5/TmpVME9UUTBPVFlA/LmpwZw",
+      "price": 110,
+      "offerprice": 85,
+      "title": "1984",
+      "author": "George Orwell",
+      "date": "1949-06-08",
+      "description": "1984 is set in a dystopian future where critical thought is suppressed under a totalitarian regime. The protagonist, Winston Smith, wrestles with oppression."
+    },
+    {
+      "id": 6,
+      "img": "https://imgs.search.brave.com/_UTEAiTOylBWlgyD9DL_85ugRyhAYQjiLTJj-Ur_x_E/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/bGFtb3VldHRlcmll/dXNlcGFyaXMuY29t/L2NhY2hlL2ltYWdl/cy9wcm9kdWN0LzZi/MDE3YWVkNWVhOGYx/YmVjZWI4ODg5YjQ0/MTNkZTM5LTAwMjM3/NDYtaW1hZ2UtOTc4/MDE0MTE5OTA3OC5q/cGc",
+      "price": 95,
+      "offerprice": 75,
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "date": "1813-01-28",
+      "description": "Pride and Prejudice follows the emotional development of Elizabeth Bennet, who learns the error of making hasty judgments and appreciates the essential."
+    },
+    {
+      "id": 7,
+      "img": "https://imgs.search.brave.com/d_nA9BGrcAXqeGVzbhke64JKl7mSDtGyvlIxgFCYg_Y/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NTFUSSt3NTZxRkwu/anBn",
+      "price": 85,
+      "offerprice": 65,
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "date": "1951-07-16",
+      "description": "The Catcher in the Rye recounts the days following sixteen-year-old Holden Caulfield's expulsion from Pencey Prep, his journey home to Manhattan, and his encounters."
+    },
+    {
+      "id": 8,
+      "img": "https://imgs.search.brave.com/haLQuzEmlY1XUMVFStByo11CeUL2G_VABe3LucosHRU/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9kMWxk/eThhNzY5Z3k2OC5j/bG91ZGZyb250Lm5l/dC8zMDAvMDA2LzI1/MC8yMTcvNC8wMDYy/NTAyMTc0LmpwZw",
+      "price": 75,
+      "offerprice": 60,
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "date": "1988-06-17",
+      "description": "The Alchemist follows Santiago, a young Andalusian shepherd in his journey to Egypt, after having a recurring dream of finding treasure there."
+    },
+    {
+      "id": 9,
+      "img": "https://imgs.search.brave.com/EwUn6J2TmUqkxgQYF0KwDutHPwtrgyrjzkZCXZEgVUc/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pcnMu/d3d3Lndhcm5lcmJy/b3MuY29tL2tleWFy/dC1qcGVnL21vdmll/cy9tZWRpYS9icm93/c2VyL3RoZV9ob2Ji/aXRfYmF0dGxlX29m/X3RoZV9maXZlX2Fy/bWllc18yMDAweDMw/MDAuanBn",
+      "price": 80,
+      "offerprice": 65,
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "date": "1937-09-21",
+      "description": "The Hobbit follows the quest of home-loving hobbit Bilbo Baggins to win a share of the treasure guarded by the dragon, Smaug."
+    },
+    {
+      "id": 10,
+      "img": "https://imgs.search.brave.com/fsL7KdZoXHEfGyC-2_XorPnq6xzMXiYqKRPcnKw_v5o/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NTFkT2FjbXV6dkwu/anBn",
+      "price": 100,
+      "offerprice": 80,
+      "title": "Harry Potter and the Philosopher's Stone",
+      "author": "J.K. Rowling",
+      "date": "1997-06-26",
+      "description": "Harry Potter and the Philosopher's Stone follows Harry Potter's first year at Hogwarts School of Witchcraft and Wizardry."
+    },
+    {
+      "id": 11,
+      "img": "https://imgs.search.brave.com/1czvZUaBIsTxcyYcoVNVx7ghsP6pSIJlqPy1h5hIruk/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9oaXBz/LmhlYXJzdGFwcHMu/Y29tL3ZhZGVyLXBy/b2QuczMuYW1hem9u/YXdzLmNvbS8xNjM3/MzMxNjY5LTUxdFct/VUpWZkhMLl9TTDUw/MF8uanBnP2Nyb3A9/MXh3OjF4aDtjZW50/ZXIsdG9wJnJlc2l6/ZT05ODA6Kg",
+      "price": 95,
+      "offerprice": 75,
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "author": "J.R.R. Tolkien",
+      "date": "1954-07-29",
+      "description": "The Lord of the Rings: The Fellowship of the Ring follows Frodo Baggins and his companions as they set out to destroy the One Ring and save Middle-earth."
+    },
+    {
+      "id": 12,
+      "img": "https://imgs.search.brave.com/9LYImXvSUFVdBq0F1SZdq5PzOMeccpsWlQBO-0DoFWg/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMxLnNyY2RuLmNv/bS93b3JkcHJlc3Mv/d3AtY29udGVudC91/cGxvYWRzLzIwMjMv/MDUvZGEtdmluY2kt/Y29kZS5qcGc",
+      "price": 110,
+      "offerprice": 85,
+      "title": "The Da Vinci Code",
+      "author": "Dan Brown",
+      "date": "2003-03-18",
+      "description": "The Da Vinci Code follows symbologist Robert Langdon and cryptologist Sophie Neveu as they investigate a murder in the Louvre Museum, leading to a trail of clues."
+    }
+  ]
+  

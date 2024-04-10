@@ -10,7 +10,7 @@ const Review = () => {
             <h1 className="text-black text-4xl font-mono font-bold m-8">Customer Reviews</h1>
             <div className="flex justify-evenly">
                 <div className="w-128">
-                    <img src="7.jpg" alt="" className="mx-8 mb-8" />
+                    <img src="7.jpg" alt="no image" className="mx-8 mb-8" />
                 </div>
                 {/* review comments */}
                 <div className="mx-16">
