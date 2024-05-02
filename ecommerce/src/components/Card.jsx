@@ -4,7 +4,7 @@ import Data from "../data.json";
 function Card({index}) {
   return (
     <div className='m-4'>
-      <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+      <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow-slate-500 shadow-2xl dark:bg-gray-800 dark:border-gray-700">
         <a href="#">
           <img
             className="p-8 rounded-xl w-full h-80 object-contain object-center"

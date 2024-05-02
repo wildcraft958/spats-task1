@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        'small': '540px',
+      },
       'demo' : 'url("demo.png")',
       height: {
         '500': '500px',

@@ -15,9 +15,6 @@ function Intro() {
                             <img src="intro2.jpg" alt="Image 2" className="w-screen" />
                         </a>
                     </div>
-                    {/* <div>
-                        <img src="img3.jpg" alt="Image 3" />
-                    </div> */}
                 </Carousel>
             </div>
         </div>

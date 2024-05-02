@@ -40,7 +40,7 @@ const Carousel = ({ children }) => {
             <button onClick={goToPrevSlide} className="absolute top-1/2 transform -translate-y-1/2 left-4 z-10">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="h-6 w-6 text-white">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-                </svg>
+                </svg>child
             </button>
             <button onClick={goToNextSlide} className="absolute top-1/2 transform -translate-y-1/2 right-4 z-10">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="h-6 w-6 text-white">

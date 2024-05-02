@@ -15,12 +15,12 @@ const Bsell = () => {
     
     return (
         <div className='mt-11'>
-            <div className="flex justify-evenly bg-white p-4">
+            <div className="flex flex-wrap flex-col small:flex-row justify-evenly bg-white p-4">
                 <hr className="h-1 bg-black" />
                 <h1 className="text-black text-6xl font-bold font-serif">Best Selling</h1>
-                <button className='text-blue-400'>See more<GoArrowRight /></button>
+                <button className='text-blue-400'>See more <span className='text-normal small:text-center'><GoArrowRight /></span></button>
             </div>
-            <div className='flex flex-row bg-white justify-center p-4'>
+            <div className='flex flex-col bg-white justify-center p-4 small:flex-row'>
                 {[...Array(totalItems)].slice(index, index + itemsPerPage).map((_, i) => <Card key={i} index={index + i} />)}
             </div>
             <div className='text-center p-4'>
