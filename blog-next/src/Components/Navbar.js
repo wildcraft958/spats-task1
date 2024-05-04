@@ -31,6 +31,7 @@ const Navbar = () => {
                 <li style={styles.li}><a href="/">Home</a></li>
                 <li style={styles.li}><a href="/about">About</a></li>
                 <li style={styles.li}><a href="/contact">Contact</a></li>
+                <li style={styles.li}><a href="/T&c"></a>Terms & Condn</li>
             </ul>
         </nav>
     );
