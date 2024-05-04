@@ -1,10 +1,19 @@
 import React from 'react'
 import Image from 'next/image'
 
+const intro = {
+  blog: {
+    border: "1px solid #333",
+    padding: "1rem",
+    margin: "1rem 1rem",
+    display: 'flex',
+  },
+};
+
 function Intro() {
   return (
-    <div style={{display: 'flex'}}>
-      <div style={{ position: 'relative', width: '80%', height: '50vh'}}>
+    <div style={intro.blog}>
+      <div style={{ position: 'relative', width: '90%', height: '50vh'}}>
         <Image src='/intro.webp' alt='intro image' layout='fill' objectFit='cover' />
       </div>
       <div style={{margin:"1rem"}}>

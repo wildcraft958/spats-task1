@@ -2,7 +2,7 @@ const styles = {
   blog: {
     border: "1px solid #333",
     padding: "1rem",
-    margin: "1rem 0"
+    margin: "1rem 1rem"
   },
   blogContent: {
     textAlign: "center"
