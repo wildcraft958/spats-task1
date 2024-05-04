@@ -1,95 +1,31 @@
-import Image from "next/image";
+import Navbar from "@/Components/Navbar";
+import Intro from "@/Components/Intro";
+import Blog from "@/Components/Blog"; // Assuming you have a Blog component
 import styles from "./page.module.css";
 
 export default function Home() {
+  const blogs = [
+    { 
+        title: "The Art of Cooking",
+        content: "Cooking is an art that requires patience, creativity, and skill. Whether you're a beginner or an experienced chef, there's always something new to learn in the kitchen. In this blog, we'll explore different cooking techniques, share delicious recipes, and discuss the latest culinary trends.",
+    },
+    { 
+        title: "Exploring Nature's Wonders",
+        content: "Nature is full of wonders waiting to be explored. From majestic mountains to serene beaches, there's beauty everywhere you look. Join us on a journey through some of the world's most breathtaking landscapes, and discover the magic of the great outdoors.",
+    },
+    { 
+        title: "The Power of Positive Thinking",
+        content: "Positive thinking has the power to transform your life. By adopting a positive mindset, you can overcome obstacles, achieve your goals, and live a happier, more fulfilling life. In this blog, we'll share tips and strategies for cultivating positivity and embracing the power of optimism.",
+    }
+];
+
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+    <>
+      <Navbar />
+      <Intro />
+      {blogs.map((blog, index) => (
+        <Blog key={index} title={blog.title} content={blog.content} />
+      ))}
+    </>
   );
 }
