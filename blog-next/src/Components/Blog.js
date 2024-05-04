@@ -13,7 +13,9 @@ const styles = {
 function Blog(props) {
   return (
     <div style={styles.blog}>
-      <h1>{props.title}</h1>
+      <a href="http://" target="_blank" rel="noopener noreferrer">
+        <h1>{props.title}</h1>
+      </a>
       <p>{props.content}</p>
     </div>
   )
