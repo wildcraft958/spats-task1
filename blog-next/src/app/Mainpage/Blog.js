@@ -7,7 +7,7 @@ function Blog(props) {
       <Link href="http://" target="_blank" rel="noopener noreferrer">
         <h1>{props.title}</h1>
       </Link>
-      <p>{props.content}</p>
+      <p style={{fontSize:"1.25rem"}}>{props.content}</p>
     </div>
   )
 }

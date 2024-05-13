@@ -1,3 +1,6 @@
+.main {
+   overflow: hidden;
+}
 @media screen and (min-width: 768px)
 {
 .videobg{
@@ -11,5 +14,8 @@
     }
     .text {
         font-size: 40px;
+    }
+    .videobg{
+        display: none;
     }
 }
