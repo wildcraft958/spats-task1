@@ -1,3 +1,8 @@
-/* .main{
-    background: url('/spg.jpg');
-} */
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    overflow:hidden;
+    position: relative;
+    background-color: rgb(0, 0, 0, 0.2)
+}

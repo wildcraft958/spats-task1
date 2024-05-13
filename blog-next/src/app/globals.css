@@ -29,6 +29,7 @@ body {
   background: #000;
   overflow: hidden;
   background: url('/spacebg.jpg');
+  background-repeat: no-repeat;
 }
 
 .glowing {
