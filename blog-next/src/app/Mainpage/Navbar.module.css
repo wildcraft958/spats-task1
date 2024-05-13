@@ -1,0 +1,25 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.logo {
+    border-radius: 50%;
+}
+
+.ul {
+    display: flex;
+    list-style: none;
+}
+
+.li {
+    margin: 0 1rem;
+}
+
+.ul a:hover {
+    color: #fff;
+    font-size: 1.25rem;
+}
