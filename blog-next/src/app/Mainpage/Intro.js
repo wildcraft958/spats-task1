@@ -14,7 +14,7 @@ function Intro() {
   return (
     <div style={intro.blog}>
       <div style={{ position: 'relative', width: '90%', height: '50vh'}}>
-        <Image src='/intro.webp' alt='intro image' layout='fill' objectFit='cover' />
+        <Image src='/introo.webp' alt='intro image' layout='fill' objectFit='cover' />
       </div>
       <div style={{margin:"1rem", display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center'}}>
         <h1>WELCOME to our Blog</h1>
