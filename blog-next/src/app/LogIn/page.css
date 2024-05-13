@@ -2,7 +2,8 @@
   position: relative;
   display: block;
   padding: 2.2rem;
-  max-width: 350px;
+  height: 450px;
+  min-width: 450px;
   background: linear-gradient(14deg, rgba(2, 0, 36, 0.8) 0%, rgba(24, 24, 65, 0.7) 66%,
       rgb(20, 76, 99) 100%), radial-gradient(circle, rgba(2, 0, 36, 0.5) 0%,
       rgba(32, 15, 53, 0.2) 65%, rgba(14, 29, 28, 0.9) 100%);
@@ -11,6 +12,7 @@
   box-shadow: rgba(0, 212, 255) 0px 0px 50px -15px;
   overflow: hidden;
   z-index: +1;
+  text-align: center;
 }
 
 /*------input and submit section-------*/
@@ -23,16 +25,16 @@
 .form button {
   outline: none;
   border: 2px solid #ffffff;
-  margin: 8px 0;
+  margin: 16px 0;
   font-family: monospace;
 }
 
 .input-container input {
   background-color: #fff;
-  padding: 6px;
+  padding: 14px;
   font-size: 0.875rem;
-  line-height: 1.25rem;
-  width: 250px;
+  line-height: 2.25rem;
+  width: 300px;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
@@ -49,12 +51,12 @@
 .submit {
   position: relative;
   display: block;
-  padding: 8px;
+  padding: 12px;
   background-color: #c0c0c0;
   color: #ffffff;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
   font-size: 0.875rem;
-  line-height: 1.25rem;
+  line-height: 2.25rem;
   font-weight: 500;
   width: 100%;
   text-transform: uppercase;
@@ -134,7 +136,7 @@
 
 .form-title {
   font-size: 1.25rem;
-  line-height: 1.75rem;
+  line-height: 3.75rem;
   font-family: monospace;
   font-weight: 600;
   text-align: center;

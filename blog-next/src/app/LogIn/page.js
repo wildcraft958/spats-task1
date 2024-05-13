@@ -1,13 +1,9 @@
 import React from 'react';
 import './page.css';
-import Navbar from '@/app/Mainpage/Navbar';
 
 const LoginForm = () => {
     return (
         <>
-            <div className='navbar'>
-                <Navbar />
-            </div>
             <form className="form">
                 <div className="form-title"><span>sign in to your</span></div>
                 <div className="title-2"><span>SPACE</span></div>

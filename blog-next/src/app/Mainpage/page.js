@@ -1,8 +1,7 @@
 import React from 'react'
 import Blog from './Blog'
 import Intro from './Intro'
-import Navbar from './Navbar'
-import './Mainpage.css'
+import styles from '@/Styles/Mainpage.module.css'
 
 
 function Mainpage() {
@@ -21,7 +20,7 @@ function Mainpage() {
         }
     ];
     return (
-        <div className='main'>
+        <div className={styles['main']}>
             <div style={{ position: 'relative' }}>
                 <div className="glowing" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}>
                     <span style={{ '--i': 1 }}></span>
@@ -34,7 +33,6 @@ function Mainpage() {
                     <span style={{ '--i': 3 }}></span>
                 </div>
             </div>
-            <Navbar />
             <Intro />
             {blogs.map((blog, index) => (
                 <Blog key={index} title={blog.title} content={blog.content} />

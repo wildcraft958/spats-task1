@@ -1,4 +1,5 @@
 import "./globals.css";
+import Navbar from "@/app/Mainpage/Navbar";
 
 export const metadata = {
   title: "Blog Next App",
@@ -9,7 +10,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <div>
+      <div className='navbar'>
+                <Navbar />
+            </div>
+        <div style={{position:'relative'}}>
           {children}
         </div>
       </body>

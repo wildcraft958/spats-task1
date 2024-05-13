@@ -31,7 +31,7 @@ const ContactForm = () => {
 
     return (
         <div className="container">
-            <form className="well form-horizontal" onSubmit={handleSubmit} id="contact_form">
+            <form className="form" onSubmit={handleSubmit} id="contact_form">
                 <fieldset>
                     <legend>Contact Us Today!</legend>
                     <div className="form-group">

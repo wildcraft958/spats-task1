@@ -31,6 +31,13 @@ body {
   background: url('/spacebg.jpg');
   background-repeat: no-repeat;
 }
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
 
 .glowing {
   position: relative;
